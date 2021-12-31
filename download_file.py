@@ -2,7 +2,7 @@ import requests
 
 
 def download_file_from_google_drive(download_file_id, dest):
-    URL = "https://docs.google.com/uc?export=download"
+    URL = "https://www.newspaperpdf.online/download-the-hindu-adfree.php"
     session = requests.Session()
     response = session.get(URL, params={'id': download_file_id}, stream=True)
     token = get_confirm_token(response)
