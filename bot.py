@@ -3,7 +3,7 @@ import requests
 
 class TelegramChatbot:
     def __init__(self):
-        self.token = "*******************************"
+        self.token = "5060849792:AAFE11DjcJrlcmnAijWHoyUkczRqmiUPWjk"
         self.base = "https://api.telegram.org/bot{}/".format(self.token)
 
     def send_news_paper_to_bot(self, chat_id, file_name, file_id):
